@@ -1,0 +1,1 @@
+FROM gcr.io/kubeflow-ci/kfserving/image-transformer:latest
