@@ -1,0 +1,1 @@
+FROM gcr.io/kubeflow-ci/test-worker:v20191212-b0ec604-e3b0c4
