@@ -2,4 +2,4 @@ FROM  hub.baidubce.com/paddlepaddle/serving:0.2.0
 RUN pip install paddle-serving-server -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN wget --no-check-certificate https://paddle-serving.bj.bcebos.com/uci_housing.tar.gz
 RUN tar -xzf uci_housing.tar.gz
-CMD python -m paddle_serving_server.serve --model uci_housing_model --thread 10 --port 9292 &>std.log 2>err.log &
+CMD ["python", "-m paddle_serving_server.serve --model uci_housing_model --thread 10 --port 9292 &>std.log 2>err.log &"]
