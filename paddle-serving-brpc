@@ -1,2 +1,2 @@
 FROM  registry.cn-hangzhou.aliyuncs.com/mengkai01/paddle-serving:brpc-tmp
-CMD ["python", "-m paddle_serving_server.serve --model uci_housing_model --thread 10 --port 9292 &>std.log 2>err.log &"]
+CMD python -m paddle_serving_server.serve --model uci_housing_model --thread 10 --port 9292
