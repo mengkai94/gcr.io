@@ -1,4 +1,4 @@
-FROM  nvcr.io/nvidia/tensorflow:20.01-tf1-py3
+FROM  nvcr.io/nvidia/tensorflow:19.10-py3
 
 
 
