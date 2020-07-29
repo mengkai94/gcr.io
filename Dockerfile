@@ -1,4 +1,1 @@
-FROM  centos:7
-
-
-
+FROM  nvcr.io/nvidia/mxnet:20.06-py3
